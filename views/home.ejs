@@ -1,4 +1,7 @@
 <%- include('../views/partials/header') %>
     <h1>Home</h1>
     <p> <%= homeStartingContent %> </p>
+    <% for (let i = 0; i < postData.length; i++) { %>
+        <% console.log(postData[i].title); %>
+      <% }; %>
 <%- include('../views/partials/footer') %>
